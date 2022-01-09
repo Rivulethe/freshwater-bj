@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fwbj-eureka" />
+        <module name="fwbj-gateway-user" />
+        <module name="fwbj-service-search-api" />
+        <module name="fwbj-service-content" />
+        <module name="fwbj-service-order" />
+        <module name="fwbj-common" />
+        <module name="fwbj-web-item-api" />
+        <module name="fwbj-service-search" />
+        <module name="fwbj-service-user-api" />
+        <module name="freshwater-web-item" />
+        <module name="fwbj-web-item" />
+        <module name="fwbj-service-goods-api" />
+        <module name="fwbj-user-oauth" />
+        <module name="fwbj-web-search" />
+        <module name="fwbj-service-user" />
+        <module name="fwbj-service-content-api" />
+        <module name="fwbj-service-file" />
+        <module name="fwbj-common-db" />
+        <module name="fwbj-service-seckill-api" />
+        <module name="fwbj-service-pay" />
+        <module name="fwbj-service-seckill" />
+        <module name="freshwater-web-search" />
+        <module name="fwbj-service-order-api" />
+        <module name="fwbj-service-goods" />
+        <module name="fwbj-gateway-web" />
+        <module name="fwbj-service-canal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="freshwater-web-item" target="1.5" />
+      <module name="freshwater-web-search" target="1.5" />
+      <module name="fwbj" target="1.8" />
+      <module name="fwbj-common" target="1.8" />
+      <module name="fwbj-common-db" target="1.8" />
+      <module name="fwbj-eureka" target="1.8" />
+      <module name="fwbj-gateway" target="1.8" />
+      <module name="fwbj-gateway-user" target="1.8" />
+      <module name="fwbj-gateway-web" target="1.8" />
+      <module name="fwbj-service" target="1.8" />
+      <module name="fwbj-service-api" target="1.8" />
+      <module name="fwbj-service-canal" target="1.8" />
+      <module name="fwbj-service-content" target="1.8" />
+      <module name="fwbj-service-content-api" target="1.8" />
+      <module name="fwbj-service-file" target="1.8" />
+      <module name="fwbj-service-goods" target="1.8" />
+      <module name="fwbj-service-goods-api" target="1.8" />
+      <module name="fwbj-service-order" target="1.8" />
+      <module name="fwbj-service-order-api" target="1.8" />
+      <module name="fwbj-service-pay" target="1.8" />
+      <module name="fwbj-service-search" target="1.8" />
+      <module name="fwbj-service-search-api" target="1.8" />
+      <module name="fwbj-service-seckill" target="1.8" />
+      <module name="fwbj-service-seckill-api" target="1.8" />
+      <module name="fwbj-service-user" target="1.8" />
+      <module name="fwbj-service-user-api" target="1.8" />
+      <module name="fwbj-user-oauth" target="1.8" />
+      <module name="fwbj-web" target="1.8" />
+      <module name="fwbj-web-item" target="1.8" />
+      <module name="fwbj-web-item-api" target="1.8" />
+      <module name="fwbj-web-search" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fwbj-common" options="-parameters" />
+      <module name="fwbj-common-db" options="-parameters" />
+      <module name="fwbj-eureka" options="-parameters" />
+      <module name="fwbj-gateway-user" options="-parameters" />
+      <module name="fwbj-gateway-web" options="-parameters" />
+      <module name="fwbj-service-canal" options="-parameters" />
+      <module name="fwbj-service-content" options="-parameters" />
+      <module name="fwbj-service-content-api" options="-parameters" />
+      <module name="fwbj-service-file" options="-parameters" />
+      <module name="fwbj-service-goods" options="-parameters" />
+      <module name="fwbj-service-goods-api" options="-parameters" />
+      <module name="fwbj-service-order" options="-parameters" />
+      <module name="fwbj-service-order-api" options="-parameters" />
+      <module name="fwbj-service-pay" options="-parameters" />
+      <module name="fwbj-service-search" options="-parameters" />
+      <module name="fwbj-service-search-api" options="-parameters" />
+      <module name="fwbj-service-seckill" options="-parameters" />
+      <module name="fwbj-service-seckill-api" options="-parameters" />
+      <module name="fwbj-service-user" options="-parameters" />
+      <module name="fwbj-service-user-api" options="-parameters" />
+      <module name="fwbj-user-oauth" options="-parameters" />
+      <module name="fwbj-web-item" options="-parameters" />
+      <module name="fwbj-web-item-api" options="-parameters" />
+      <module name="fwbj-web-search" options="-parameters" />
+    </option>
+  </component>
+</project>

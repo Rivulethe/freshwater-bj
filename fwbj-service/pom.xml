@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>fwbj</artifactId>
+        <groupId>com.fwbj</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>fwbj-service</artifactId>
+
+    <packaging>pom</packaging>
+
+    <description> 商城各大微服务父工程 </description>
+    <modules>
+        <module>fwbj-service-canal</module>
+        <module>fwbj-service-content</module>
+        <module>fwbj-service-file</module>
+        <module>fwbj-service-goods</module>
+        <module>fwbj-service-order</module>
+        <module>fwbj-service-pay</module>
+        <module>fwbj-service-search</module>
+        <module>fwbj-service-seckill</module>
+        <module>fwbj-service-user</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fwbj</groupId>
+            <artifactId>fwbj-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fwbj</groupId>
+            <artifactId>fwbj-common-db</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
